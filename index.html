@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+
+    <div class="outer">
+
+        <header class="row  encPrincipal">
+                
+            <div class="col-md-6 encabezado">
+                <img src="images/imagineEnc.jpg" alt="imagin" class="imgencabezado">
+            </div>
+
+            <div class="col-md-6 encabezado">
+                <p class="pencabezado">
+                    Imagine Dragons are an American pop rock band formed in 2008, based in 
+                    Las Vegas, Nevada, and currently consists of lead singer Dan Reynolds,
+                     guitarist Wayne Sermon, bassist Ben McKee and drummer Daniel Platzman.
+                    </p>
+            </div>
+            
+        </header>
+
+        <nav class="row navbar navbar-expand-lg  menu">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#">
+                <img src="images/logo.jpg" alt="logo" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link principal" href="#">Home</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link principal" href="#">Responsivo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link principal" href="#">Acerca de..</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link principal last" href="#">Contactenos</a>
+                  </li>             
+                </ul>
+              </div>
+            </div>
+          </nav> 
+
+        <div class="row centroprincipal" >
+          <aside class="col-md-5 centro">
+           
+                <img src="images/las vegas.jpg" alt="las vegas" class="centroimg">
+           
+          </aside>  
+
+         <main class="col-md-7 centro">
+            <article class="centroart">
+                <p class="pcentro">
+                    Indie rock superstars Imagine Dragons are launching a big new tour again soon!  While we don't have many of the details just yet,
+                    this site will update automatically as soon as more information is made available — which makes it a valuable resource 
+                    for fans hoping to score the best tickets at the most affordable prices.  So don't miss your chance to hear songs like "Radioactive,"
+                    "Demons," and "Believer" alongside their brand-new material.  Check back regularly for the latest Imagine Dragons Tour 2024 info,
+                    and get your tickets as soon as possible!
+                </p>
+                
+            </article  class="centroart">
+                <p class="pcentro">
+                    General tickets go on sale starting Friday, April 1 at 10 a.m. PT on Ticketmaster.com.
+                     Allegiant Stadium and Live Nation customers will have access to a presale
+                      beginning Thursday, March 31 at 10 a.m. PT. 
+                </p>
+            <article>
+                
+            </article>
+         </main>
+
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide finalimg" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active finalimg" >
+                <img src="images/fondo 1.jpg" class="d-block w-100 fondos" alt="logo 1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/fondo 2.jpg" class="d-block w-100 fondos" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/fondo 3.jpg" class="d-block w-100 fondos" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/fondo 4.jpg" class="d-block w-100 fondos" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+
+
+
+    <footer class="col-sm-12 footer">
+        <credit>&copy; Derechos Reservados Raudyn Alvarez-2024</credit>
+        <div id="date">Feb 24, 2024</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+    </footer>
+    
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
