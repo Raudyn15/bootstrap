@@ -6,6 +6,7 @@
     <title>Responsive</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos/style.css">
+    <script src="js/UsoDOM.js"></script>
 </head>
 
 <body>
@@ -25,6 +26,8 @@
                      guitarist Wayne Sermon, bassist Ben McKee and drummer Daniel Platzman.
                     </p>
             </div>
+
+            
             
         </header>
 
@@ -112,6 +115,26 @@
 
     </div>
 
+
+    <div id="divcalculadora" class="calculadora">
+      <h1 > Calculadora</h1>
+      <br />
+      <label>Digite el numero 1</label>
+      <input id="numero1" type="number" />
+      <br />
+      <br />
+      <label>Digiete el numero 2</label>
+      <input id="numero2" type="number" />
+      <br />
+      <br />
+      <h3 id="resultado">Resultado</h3>
+      <br />
+      <br />
+      <button id="botonSuma" class="boton" onclick="Sumar();">Sumar</button>
+      <button id="botonResta" class="boton" onclick="Restar();">Restar</button>
+      <button id="botonMultiplicar" class="boton" onclick="Multiplicar();">Multiplicar</button>
+  
+  </div>
 
 
     <footer class="col-sm-12 footer">

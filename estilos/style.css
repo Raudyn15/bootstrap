@@ -98,3 +98,29 @@
     padding-top:15px;
     color: #FFF;
 }
+
+
+.calculadora {
+    width: 500px;
+    max-height: 500px;
+    background-color: #168aad;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    color: #99d98c;
+    text-align: center;
+    border: solid;
+    box-shadow: 15px 15px 60px #000000;
+}
+
+.boton {
+    background-color: #99d98c;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: #184e77;
+}
+
+    .boton:hover {
+        background-color: #34a0a4;
+    }
